@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.logo {
+    width: 200px; 
+    margin-bottom: 20px;
+}
+
+.login-box {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="password"], button, .facebook-login {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3578e5;
+}
+
+.or-bar {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.or-line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.or-text {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.facebook-login {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.facebook-login:hover {
+    background-color: #324b81;
+}
+
+.additional-info {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signup-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #00376b;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+.app-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.store-icon {
+    width: 150px; 
+    margin: 0 10px;
+}
